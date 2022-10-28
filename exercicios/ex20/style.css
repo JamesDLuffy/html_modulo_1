@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(208, 217, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    /*tudo em html que é id em css é #
+    tudo em html que for class em css é .*/
+}
+
+h1#principal {
+
+    text-align: center;
+    background-color: rgb(131, 15, 15);
+    margin: 66px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgb(21, 167, 47);
+    width: auto;
+}
+h1{
+    color: rgb(210, 30, 129);    
+       
+}
+
+.avancado{
+
+    color: rgb(240, 9, 9);
+    font-weight: bold;
+}
+
+.basico{
+    color:gold;
+}
+
+.intermediario{
+    color: blue;
+
+}
+
