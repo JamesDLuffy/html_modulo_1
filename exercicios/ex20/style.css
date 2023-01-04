@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(208, 217, 214);
+    background-color: rgba(217, 153, 16, 0.825);
     font-family: Arial, Helvetica, sans-serif;
     /*tudo em html que é id em css é #
     tudo em html que for class em css é .*/
@@ -10,20 +10,31 @@ body{
 h1#principal {
 
     text-align: center;
-    background-color: rgb(131, 15, 15);
-    margin: 66px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 3px rgb(21, 167, 47);
+    background-color: rgb(217, 16, 190);
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px rgb(230, 228, 239);
     width: auto;
 }
+
 h1{
-    color: rgb(210, 30, 129);    
+    color: rgba(7, 13, 13, 0.656);    
        
 }
+.basicohtml{
+
+    color:rgb(170, 32, 94) ;
+}
+
+.intermediarioo{
+
+    color: rgb(164, 136, 100);
+}
+
 
 .avancado{
 
-    color: rgb(240, 9, 9);
+    color: rgb(9, 240, 59);
     font-weight: bold;
 }
 
