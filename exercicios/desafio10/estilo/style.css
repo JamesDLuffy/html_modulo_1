@@ -42,6 +42,10 @@ font-family: var(--font-padrao);
     
 }
 
+p{
+    margin: 15px 0px;
+}
+
 header{
 
     background-image: linear-gradient(#3ddc84, #2fa866,#1a5c37,#063d1e );
