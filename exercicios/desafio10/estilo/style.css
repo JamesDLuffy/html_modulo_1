@@ -61,17 +61,19 @@ header > h1{
     font-family: var(--font-padrao);
     font-weight: normal;
     margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 2px 2px 0px black;
 }
 
 
 header > p{
+
     color: white;
     font-family: var(--font-padrao);
     font-size: 1.2em;
    max-width: 600px;
    margin: auto;
+   margin-bottom: 20px;   
    padding-right: 10px;
    padding-left: 10px;
    text-shadow: 2px 2px 0px black;
@@ -86,7 +88,7 @@ nav{
 
 nav > a{
 
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
