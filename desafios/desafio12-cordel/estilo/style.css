@@ -25,7 +25,26 @@ header h3 {
 P {
 
     font-family: Sriracha;
-    font-size: ;
+    font-size: 1.3em;
+}
+
+.poema1{
+    
+    padding: 40px;
 
 
 }
+
+ div{
+
+   
+    padding: 40px;
+    font-family: Sriracha;
+    font-size: 1.3em;
+    border: 2px solid red;
+
+
+
+    
+}
+
