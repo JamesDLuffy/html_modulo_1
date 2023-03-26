@@ -30,8 +30,11 @@
 
     caption{
         background-color: blanchedalmond;
-        height: 30px;
+        
         padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+
     }
     td, th{
         border: 1px solid black;
@@ -47,18 +50,26 @@
     thead, tfoot{ 
         background-color: gray;
         color: white;
+   
+
+    }
+
+    thead >  tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
     }
     h1{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         padding: 40px;
         text-align: center;
-        margin-bottom: 20px;
+       
+        color: rgb(14, 13, 13);
     }
 
     h1:hover{
-        background-color: aqua;
-        color: rgb(238, 255, 80);
-        
+        background-color: rgb(5, 7, 7);
+        color: rgb(255, 92, 80);        
         transition: 1s;
     }
 
@@ -77,7 +88,7 @@
 
     <table>
 
-        <caption>População das capitais</caption>
+        <caption>POPULAÇÃO DAS CAPITAIS</caption>
       <thead>
 
         <tr>
@@ -214,6 +225,7 @@
 
       </tfoot>
     </table>
+    
     
 </body>
 </html>
