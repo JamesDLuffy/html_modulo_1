@@ -8,7 +8,7 @@
 .container { 
     border: 1px solid black;
     height: 50px;
-    width: 100%;
+    width: 90%;
   
    text-align: center;
     background-color: aqua;
@@ -16,15 +16,7 @@
   
 }
 
-.container:hover{
-    background-color: blueviolet;
-    color: white;
-    transition: 1s;
-    margin-bottom: 10px;
-      margin-top: 100px;
-    
- 
-}
+
 
 header > h1{
        border-radius: 10px ;
@@ -37,25 +29,36 @@ header > h1{
           margin-top: 10px;
 
 }
+
+div{
+    background-color: green;
+    width: 75%;
+    margin: auto;
+}
 p{
     border-radius: 5px;
-    background-color: rgba(0, 0, 255, 0.407);
-    margin: auto;
-    text-align: center;
-    width: 75%;
+    background-color: rgba(0, 0, 255, 0.407);   
+   
+    width: 70%;
     height: 100%;
     padding: 50px;
     font-size: 1em;
     margin-top: 10px;
     margin-bottom: 10px;
-   
+    line-height: 25px;   
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 30px;
+ margin: auto;
+    
 
 
 }
 
 footer{
     background-color: coral;
-    height: 10vh;
+    height: 2vh;
+    width: 75%;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
 }
